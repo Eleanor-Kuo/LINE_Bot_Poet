@@ -20,14 +20,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-LINE_CHANNEL_ACCESS_TOKEN = 'EcgCt5oJHbDGLkpFxcE0rhUI2nLBntj5fK6sYUSPXT4tq/uK4gEI8PCtkm8UIRaAH1KHLgldOXHuWfQdiBVazAGICYLiAO6yuJM12qZAHctJg4SizmQInqW3ROlVmEAP08nOAtFFkWFLB9S71ybovgdB04t89/1O/w1cDnyilFU='
-LINE_CHANNEL_SECRET = '26746a05429e744dea65e9ffe13785b0'
-SECRET_KEY = "django-insecure-o$+_5b9zybmvmiv)a44+w@m30zqeyu%845@7rr$z**6=q+i###"
+LINE_CHANNEL_ACCESS_TOKEN = ''
+LINE_CHANNEL_SECRET = ''
+SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['1cbc-140-119-122-6.jp.ngrok.io', 'localhost','127.0.0.1']
+ALLOWED_HOSTS = ['.ngrok.io', 'localhost','127.0.0.1']
 
 
 # Application definition
